@@ -291,8 +291,13 @@ header {
 
 .some-facts-box:hover {
     transform: scale(1.2);
+    background-color: #FF900E;
+    color: white;
+    cursor:default;
     /* transform: rotate(45deg); */
 }
+
+.some-facts-box:hover h2 {color: white;}
 
 .some-facts-box h2 {
     font-size: 45px;
@@ -304,6 +309,8 @@ header {
     font-size: 20px;
     font-weight: 600;
 }
+
+.some-facts-box:hover p {color: white;}
 
 
 /*-------- Our Sponsors Section Started From Here --------*/
